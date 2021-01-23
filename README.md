@@ -2,4 +2,6 @@
 the config files of linux
 
 #### urxvt-config
-ln -s urxvt-config ~/.Xresources
+ln -f urxvt-config ~/.Xresources
+#### git-config
+ln -f git-config ~/.gitconfig
