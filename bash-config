@@ -1,0 +1,14 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias ll='ls -lh'
+alias la='ls -lha'
+alias cc='clear'
+PS1='[\u@\h \W]\$ '
+
+PATH=$PATH+":/home/frankyuan/.local/bin"
