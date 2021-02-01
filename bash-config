@@ -9,7 +9,7 @@ alias ls='ls --color=auto'
 alias ll='ls -lh'
 alias la='ls -lha'
 alias cc='clear'
-alias pm='pacman'
+alias spm='sudo pacman'
 PS1='[\u@\h \W]\$ '
 
 PATH=$PATH+":/home/frankyuan/.local/bin"
