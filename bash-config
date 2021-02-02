@@ -5,31 +5,31 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
-alias ll='ls -lh'
-alias la='ls -lha'
+#alias ls='ls --color=auto'
+#alias ll='ls -lh'
+#alias la='ls -lha'
 alias cc='clear'
 alias spm='sudo pacman'
-alias cdd='cd ..'
 PS1='[\u@\h \W]\$ '
 
 PATH=$PATH+":/home/frankyuan/.local/bin"
 
 # zsh alias
-#ERROR : alias '-'='cd -'
-alias '...'=../..
-alias '....'=../../..
-alias '.....'=../../../..
-alias '......'=../../../../..
+#alias '-'='cd -'
+alias '..'='cd ..'
+alias '...'='cd ../..'
+alias '....'='cd ../../..'
+alias '.....'='cd ../../../..'
+alias '......'='cd ../../../../..'
 alias 1='cd -'
-alias 2='cd -2'
-alias 3='cd -3'
-alias 4='cd -4'
-alias 5='cd -5'
-alias 6='cd -6'
-alias 7='cd -7'
-alias 8='cd -8'
-alias 9='cd -9'
+#alias 2='cd -2'
+#alias 3='cd -3'
+#alias 4='cd -4'
+#alias 5='cd -5'
+#alias 6='cd -6'
+#alias 7='cd -7'
+#alias 8='cd -8'
+#alias 9='cd -9'
 alias _='sudo '
 alias afind='ack -il'
 alias diff='diff --color'
@@ -195,7 +195,7 @@ alias gupav='git pull --rebase --autostash -v'
 alias gupv='git pull --rebase -v'
 alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify --no-gpg-sign -m "--wip-- [skip ci]"'
-alias history=omz_history
+#alias history=omz_history
 alias l='ls -lah'
 alias la='ls -lAh'
 alias ll='ls -lh'
@@ -204,4 +204,4 @@ alias lsa='ls -lah'
 alias md='mkdir -p'
 alias rd=rmdir
 alias run-help=man
-alias which-command=whence
+#alias which-command=whence
