@@ -205,3 +205,5 @@ alias md='mkdir -p'
 alias rd=rmdir
 alias run-help=man
 #alias which-command=whence
+# autojump plugins
+[[ -s /home/frankyuan/.autojump/etc/profile.d/autojump.sh ]] && source /home/frankyuan/.autojump/etc/profile.d/autojump.sh
